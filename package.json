@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tthau02/nodeJs-Blog.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "blog"
+  ],
+  "author": "tranhau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tthau02/nodeJs-Blog/issues"
+  },
+  "homepage": "https://github.com/tthau02/nodeJs-Blog#readme",
+  "description": "",
+  "dependencies": {
+    "experss": "^0.0.1-security",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
